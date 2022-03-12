@@ -1,0 +1,194 @@
+body {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(255, 0, 76);
+}
+/* Nav bar */
+.nav-bar {
+  border-bottom: 1px solid white;
+  margin: 0px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 72px;
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  background: grey;
+}
+#title{
+  margin-top: 12px; 
+}
+/*FIND*/
+.formFind {
+  margin-top: 4.5px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  width: 50%;
+  height: 80%;
+  background: white;
+  display: flex;
+}
+.inputFind {
+  font-size: 16px;
+  width: 80%;
+  outline: rgba(0, 0, 0, 0);
+}
+.btnFind {
+  background: rgba(252, 65, 242, 0.6);
+  color: white;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  width: 20%;
+}
+.outline {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconfind {
+  height: 70%;
+}
+/*LOGO*/
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo {
+  padding-left: 36px;
+  height: 80%;
+}
+.shopName {
+  padding: 24px 0px 24px 0px;
+  color: white;
+  margin-left: 8px;
+}
+.shopName:hover {
+  color: rgb(255, 0, 76);
+  margin-top: -2px;
+}
+
+#quanly{
+  margin-top: 14px;
+  margin-right: 20px;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+#form-edit{
+  width: 60%;
+}
+/*GIỎ HÀNG*/
+.giohang {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.icon-gh {
+  padding-right: 6px;
+  height: 80%;
+}
+.dropdown-gh{
+  width: 50vw;
+  margin-top: 65px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.giohang:hover .dropdown-gh{
+  display: block;
+}
+#empty{
+  margin-left: 300px;
+}
+
+#dathang{
+  margin-left: 10px;
+}
+
+/* CONTAINER */
+
+.container {
+  height: 100vh-144px;
+  width: 100vw - 10px;
+  margin-top: 78px;
+  display: flex;
+  justify-content: center;
+}
+
+/* MENU */
+.Menu {
+  margin-left: 6px;
+  background-color: #61595d;
+  width: 18%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+}
+.item-MN {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 16px;
+  color: black;
+}
+.head-MN {
+  font-weight:bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 16px 0px 16px 0px;
+}
+
+/* MANAGER ITEM*/
+.Item-Manager {
+  background-color: #caa5b8;
+  border-radius: 8px;
+  margin-left: 6px;
+  margin-right: 6px;
+  align-content: flex-start;
+  width: 81%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item-hh {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 4px;
+  width: 144px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-hh {
+  margin: 4px;
+  border-radius: 4px;
+  width: 136px;
+  height: 180px;
+  justify-items: flex-start;
+}
+.AddGiohang{
+  background-color: black;
+}
+#input{
+  width: 50%;
+}
